@@ -4,15 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>First Site Test</title>
+    <title>Training Site</title>
     <link href="/style.css">
 </head>
 <body>
-    <header>
-        <h1>Hello</h1>
+    <header id="home">
+        <h1>Home Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#description">description</a></li>
+                <li><a href="#examples">examples</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
+        <section id="about">
+            <h2></h2>
+            <article class="article-about"></article>
+            <article class="article-about"></article>
+            <article class="article-about"></article>
+        </section>
 
+        <section id="description">
+            <h2></h2>
+            <article class="article-description"></article>
+            <article class="article-description"></article>
+        </section>
+
+        <section id="examples">
+            <h2></h2>
+
+        </section>
+
+        <form id="contact">
+            <h2>contact</h2>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+            <input type="text" name="pseudo" id="pseudo" placeholder="Enter your Pseudo" required>
+            <input type="text" name="message" id="message" placeholder="Enter your message" required>
+            <input type="submit" value="submit">
+        </form>
     </main>
     <footer>
         
