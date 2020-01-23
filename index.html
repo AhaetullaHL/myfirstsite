@@ -5,45 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Training Site</title>
-    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header id="home">
-        <div>
-            <nav>
+        <nav>
+            <div>
                 <ul>
                     <li><a href="#home">home</a></li>
-                    <li><a href="#intro">about</a></li>
+                    <li><a href="#intro">introduction</a></li>
                     <li><a href="#description">description</a></li>
                     <li><a href="#examples">examples</a></li>
                     <li><a href="#contact">contact</a></li>
                 </ul>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
     <main>
         <section id="intro">
-            <h2>introduction</h2>
-            <div class="article-intro">
+            <div>
+                <h2>introduction</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque adipisci eum, a nobis nesciunt optio fuga sed, necessitatibus perspiciatis quibusdam earum impedit itaque laudantium enim numquam repellendus. Porro, illo corrupti.</p>
-            </div>
-            <div class="article-intro">
-                <img src="#" alt="">
-            </div>
-            <div class="article-intro">
+                <img src="./img/intro.jpg" alt="">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eveniet consequuntur maxime similique in placeat repudiandae a, molestias alias maiores ullam quibusdam. Aut velit corporis possimus inventore placeat ad ipsam!</p>
             </div>
         </section>
     
         <section id="description">
-            <h2>description</h2>
-            <div class="article-description">
+            <div>
+                <h2>description</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse maiores soluta quam alias sit eligendi quibusdam eveniet quas illum? Corporis velit harum officiis dicta temporibus sunt, inventore odit perspiciatis provident.</p>
+                <button><a href="#" target="_blank" rel="noopener noreferrer">Click here for more</a></button>
+                <img src="./img/description.jpg" alt="">
             </div>
-            <div class="article-description">
-                <img src="#" alt="">
-            </div>
-            <button><a href="http://" target="_blank" rel="noopener noreferrer">More info</a></button>
         </section>
 
         <section id="examples">
@@ -51,35 +45,26 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rem tempore architecto rerum eius possimus animi dignissimos laborum. Soluta, provident! Quos corporis excepturi in temporibus eligendi accusamus reprehenderit ea nobis?</p>
                 <p>Quos rerum facilis ad at, aliquid, perferendis consequuntur doloremque laboriosam excepturi nam atque a vitae libero eaque reiciendis minima officiis provident ratione similique aut ab incidunt aspernatur soluta dolores! Necessitatibus!</p>
             </div>
-            <div>
-                <p>Veritatis beatae ipsam omnis ut officia repellat quas eos sunt saepe in, hic, fugit adipisci quos deleniti culpa vel. Recusandae itaque est ratione odio nulla modi quis quo! Tempore, voluptate.</p>
-                <p>Eum molestiae veritatis reprehenderit ullam cum minus repellendus, quas enim provident odit fugiat sequi nulla sit consectetur consequatur perferendis accusamus corrupti fugit doloribus debitis natus sed impedit. At, veniam quibusdam?</p>
-            </div>
-            <div>
-                <p>Praesentium delectus laboriosam in non, quo assumenda reiciendis, voluptatum incidunt cupiditate libero asperiores sed molestiae possimus at labore fugit eaque tempore sint facilis. Odit nostrum sint provident, eum magnam dolore.</p>
-                <p>Repudiandae corporis assumenda tempore vero inventore! Rerum voluptatem, dolor aperiam assumenda esse blanditiis distinctio nobis! Nulla quasi placeat corporis, nihil officiis eveniet deleniti numquam eum exercitationem fugiat incidunt sequi adipisci.</p>
-            </div>
         </section>
 
         <form id="contact">
+            <div>
                 <h2>contact</h2>
-                <div>
-                    <label for="email">Email:<span>*</span></label><br>
-                    <input type="email" name="email" id="email" placeholder="Enter your email" required>
-                </div>
-                <div>
-                    <label for="pseudo">Pseudo:<span>*</span></label><br>
-                    <input type="text" name="pseudo" id="pseudo" placeholder="Enter your Pseudo" required>
-                </div>
-                <div>
-                    <label for="message">Message:<span>*</span></label><br>
-                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message" required></textarea>
-                </div>
+                <label for="email">Email:<span>*</span></label><br>
+                <input type="email" name="email" id="email" placeholder="Enter your email" required><br>
+            
+                <label for="pseudo">Pseudo:<span>*</span></label><br>
+                <input type="text" name="pseudo" id="pseudo" placeholder="Enter your Pseudo" required><br>
+            
+                <label for="message">Message:<span>*</span></label><br>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="Enter your message" required></textarea><br>
+                
                 <button type="submit">Send</button>
+            </div>
         </form>
     </main>
     <footer>
-        
+        &copy;Copyright Hermann LEDENT. All right reserved.
     </footer>
 </body>
 </html>
