@@ -5,43 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Training Site</title>
-    <link href="/style.css">
+    <link href="/style.css" rel="">
 </head>
 <body>
     <div>
-
+        <header id="home">
+            <h1>Home Page</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#description">description</a></li>
+                    <li><a href="#examples">examples</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </header>
     </div>
-    <header id="home">
-        <h1>Home Page</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">home</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#description">description</a></li>
-                <li><a href="#examples">examples</a></li>
-                <li><a href="#contact">contact</a></li>
-            </ul>
-        </nav>
-    </header>
     <main>
-        <section id="about">
-            <h2></h2>
-            <article class="article-about"></article>
-            <article class="article-about"></article>
-            <article class="article-about"></article>
-        </section>
-
-        <section id="description">
-            <h2></h2>
-            <article class="article-description"></article>
-            <article class="article-description"></article>
-        </section>
-
-        <section id="examples">
-            <h2></h2>
-
-        </section>
-
+        <div>
+            <section id="about">
+                <h2>about</h2>
+                <article class="article-about"></article>
+                <article class="article-about"></article>
+                <article class="article-about"></article>
+            </section>
+        </div>
+        <div>
+            <section id="description">
+                <h2></h2>
+                <article class="article-description"></article>
+                <article class="article-description"></article>
+                <button>More</button>
+            </section>
+        </div>
+        <div>
+            <section id="examples">
+                <h2></h2>
+            </section>
+        </div>
         <div>
             <form id="contact">
                 <h2>contact</h2>
@@ -57,11 +59,10 @@
                     <label for="message">Message:</label>
                     <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message" required></textarea><span>*</span>
                 </div>
-                <button type="submit">Submit</button>
+                <button type="submit">Send</button>
             </form>
         </div>
     </main>
-
     <footer>
         
     </footer>
