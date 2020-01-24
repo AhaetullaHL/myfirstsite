@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body  id="home">
-    <header>
+    <header class="container">
         <nav class="header-nav">
             <div>
                 <a href="#home">home</a>
@@ -21,7 +21,7 @@
     </header>
     <main>
         <section id="intro">
-            <div>
+            <div class="container">
                 <div>
                     <h2>introduction</h2>
                 </div>
@@ -34,20 +34,24 @@
         </section>
     
         <section id="description">
-            <div class="flex">
-                <h2>description</h2>
+            <div class="container">
                 <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse maiores soluta quam alias sit eligendi quibusdam eveniet quas illum? Corporis velit harum officiis dicta temporibus sunt, inventore odit perspiciatis provident.</p><br>
-                    <button><a href="#" target="_blank" rel="noopener noreferrer">Click here for more</a></button>
+                    <h2>description</h2>
                 </div>
-                <div>
-                    <img src="./img/description.jpg" alt="monitor lizard description pict">
+                <div class="flex">
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse maiores soluta quam alias sit eligendi quibusdam eveniet quas illum? Corporis velit harum officiis dicta temporibus sunt, inventore odit perspiciatis provident.</p><br>
+                        <button><a href="#" target="_blank" rel="noopener noreferrer">Click here for more</a></button>
+                    </div>
+                    <div>
+                        <img src="./img/description.jpg" alt="monitor lizard description pict">
+                    </div>
                 </div>
             </div>
         </section>
 
         <section id="examples">
-            <div class="flex">
+            <div class="flex container">
                 <div>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit atque molestias dignissimos aspernatur ab et totam delectus ipsa deleniti, modi quo ullam vel adipisci perferendis dolore voluptates cumque. Aspernatur, at!</p>
                 </div>
@@ -61,7 +65,7 @@
         </section>
 
         <form id="contact">
-            <div class="contact">
+            <div class="contact container">
                 <h2>contact</h2>
                 <label for="email">Email:<span>*</span></label><br>
                 <input type="email" name="email" id="email" placeholder="Enter your email" required><br>
