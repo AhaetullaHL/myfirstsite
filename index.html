@@ -7,14 +7,14 @@
     <title>Training Site</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body  id="home">
+<body>
     <header class="container">
         <nav class="header-nav">
-                <a href="#home">home</a>
-                <a href="#intro">introduction</a>
-                <a href="#description">description</a>
-                <a href="#examples">examples</a>
-                <a href="#contact">contact</a>
+            <a href="#">home</a>
+            <a href="#intro">introduction</a>
+            <a href="#description">description</a>
+            <a href="#examples">examples</a>
+            <a href="#contact">contact</a>
         </nav>
     </header>
     <main>
@@ -39,7 +39,7 @@
                 <div class="flex">
                     <div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse maiores soluta quam alias sit eligendi quibusdam eveniet quas illum? Corporis velit harum officiis dicta temporibus sunt, inventore odit perspiciatis provident.</p><br>
-                        <button><a href="#" target="_blank" rel="noopener noreferrer">Click here for more</a></button>
+                        <button class="button"><a href="#" target="_blank" rel="noopener noreferrer">Read more</a></button>
                     </div>
                     <div>
                         <img src="./img/description.jpg" alt="monitor lizard description pict">
@@ -63,18 +63,21 @@
         </section>
 
         <form id="contact">
-            <div class="contact container">
+            <div class="container contact-container-input">
                 <h2>contact</h2>
-                <label for="email">Email:<span>*</span></label><br>
-                <input type="email" name="email" id="email" placeholder="Enter your email" required><br>
-            
-                <label for="pseudo">Pseudo:<span>*</span></label><br>
-                <input type="text" name="pseudo" id="pseudo" placeholder="Enter your Pseudo" required><br>
-            
-                <label for="message">Message:<span>*</span></label><br>
-                <textarea name="message" id="message" cols="30" rows="5" placeholder="Enter your message" required></textarea><br>
-                
-                <button type="submit">Send</button>
+                <div class="">
+                    <label for="email">Email:<span>*</span></label><br>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required><br>
+                </div>
+                <div class="">
+                    <label for="pseudo">Pseudo:<span>*</span></label><br>
+                    <input type="text" name="pseudo" id="pseudo" placeholder="Enter your Pseudo" required><br>
+                </div>
+                <div class="">
+                    <label for="message">Message:<span>*</span></label><br>
+                    <textarea name="message" id="message" cols="30" rows="5" placeholder="Enter your message" required></textarea><br>
+                </div>
+                <button type="submit"  class="button">Send</button>
             </div>
         </form>
     </main>
